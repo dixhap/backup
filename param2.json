@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "vaultName": {
+        "value": "vault2"
+      },
+      
+      "location": {
+        "value": "Central US"
+      },
+
+
+      "policyName": {
+          "value": "BackupPolicy2"
+      },
+      
+      "scheduleRunFrequency": {
+        
+          "value": "Daily"
+          
+      },
+      "scheduleRunTimes": {
+        "value": [ "2019-01-25T05:30:00Z" ]
+        
+      },
+      "timeZone": {
+        "value": "UTC"
+      },
+      "dailyRetentionDurationCount": {
+        "value": 180
+      }
+      
+  }
+
+}
